@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio-v1",
+  "homepage": "http://chrishunter.info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
