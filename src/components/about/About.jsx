@@ -5,7 +5,6 @@ import ME from "../../assets/me2.jpg";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -16,31 +15,37 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <h5>Background</h5>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                magnam dolorem quaerat quis iste ratione aliquam deleniti
-                perferendis dolor est, quas sequi quasi rem, in dolores nostrum
-                cupiditate nam natus.
-              </small>
+              <h3>Who I am and where I'm from...</h3>
+              <div className="overlay">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  magnam dolorem quaerat quis iste ratione aliquam deleniti
+                  perferendis dolor est, quas sequi quasi rem, in dolores
+                  nostrum cupiditate nam natus.
+                </h5>
+              </div>
             </article>
             <article className="about__card">
-              <h5>Hobbies & Interests</h5>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                magnam dolorem quaerat quis iste ratione aliquam deleniti
-                perferendis dolor est, quas sequi quasi rem, in dolores nostrum
-                cupiditate nam natus.
-              </small>
+              <h3>My Hobbies & Interests...</h3>
+              <div className="overlay">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  magnam dolorem quaerat quis iste ratione aliquam deleniti
+                  perferendis dolor est, quas sequi quasi rem, in dolores
+                  nostrum cupiditate nam natus.
+                </h5>
+              </div>
             </article>
             <article className="about__card">
-              <h5>Projects</h5>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                magnam dolorem quaerat quis iste ratione aliquam deleniti
-                perferendis dolor est, quas sequi quasi rem, in dolores nostrum
-                cupiditate nam natus.
-              </small>
+              <h3>What I'm Looking For...</h3>
+              <div className="overlay">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  magnam dolorem quaerat quis iste ratione aliquam deleniti
+                  perferendis dolor est, quas sequi quasi rem, in dolores
+                  nostrum cupiditate nam natus.
+                </h5>
+              </div>
             </article>
           </div>
         </div>

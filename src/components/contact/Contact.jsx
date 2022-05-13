@@ -24,7 +24,6 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
@@ -32,7 +31,6 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineMailOutline className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>chriswhunter89@gmail.com</h5>
             <a href="mailto:chriswhunter89@gmail.com" target="_blank">
               Send an email
             </a>
@@ -41,7 +39,7 @@ const Contact = () => {
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <a href="https://wa.me/+447493934871" target="_blank">
-              Messaage on Whatsapp
+              Message on Whatsapp
             </a>
           </article>
         </div>
