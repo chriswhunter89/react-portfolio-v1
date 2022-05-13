@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -11,7 +12,6 @@ const HeaderSocials = () => {
       <a href="https://github.com/chriswhunter89" target="_blank">
         <BsGithub />
       </a>
-      <a href="https://www.linkedin.com/in/chris-hunter89/" target="_blank"></a>
     </div>
   );
 };
