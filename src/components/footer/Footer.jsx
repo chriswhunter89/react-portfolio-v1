@@ -8,10 +8,6 @@ import { BsGithub } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        Chris Hunter
-      </a>
-
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>
@@ -37,10 +33,6 @@ const Footer = () => {
         <a href="https://github.com/chriswhunter89">
           <BsGithub />
         </a>
-      </div>
-
-      <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved.</small>
       </div>
     </footer>
   );
