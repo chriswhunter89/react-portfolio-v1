@@ -4,7 +4,6 @@ import "./nav.css";
 import { FaHome } from "react-icons/fa";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBookBookmark } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
 import { RiChatSmile2Line } from "react-icons/ri";
 import { useState } from "react";
 
@@ -32,13 +31,6 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBookBookmark />
-      </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <RiServiceLine />
       </a>
       <a
         href="#contact"
