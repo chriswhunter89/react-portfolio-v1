@@ -27,22 +27,6 @@ const Contact = () => {
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineMailOutline className="contact__option-icon" />
-            <h4>Email</h4>
-            <a href="mailto:chriswhunter89@gmail.com" target="_blank">
-              Send an email
-            </a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>Whatsapp</h4>
-            <a href="https://wa.me/+447493934871" target="_blank">
-              Message on Whatsapp
-            </a>
-          </article>
-        </div>
         {/* form npm install emailjs-com --save
         then follow guides on emailjs site*/}
         <form ref={form} onSubmit={sendEmail}>
@@ -63,6 +47,20 @@ const Contact = () => {
             Send Message
           </button>
         </form>
+        <div className="contact__options">
+          <article className="contact__option">
+            <MdOutlineMailOutline className="contact__option-icon" />
+            <a href="mailto:chriswhunter89@gmail.com" target="_blank">
+              Send an email
+            </a>
+          </article>
+          <article className="contact__option">
+            <BsWhatsapp className="contact__option-icon" />
+            <a href="https://wa.me/+447493934871" target="_blank">
+              Message on Whatsapp
+            </a>
+          </article>
+        </div>
       </div>
     </section>
   );
