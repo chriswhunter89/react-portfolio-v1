@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me2.jpg";
+import CARD1 from "./CARD1";
+import CARD2 from "./CARD2";
+import CARD3 from "./CARD3";
 
 const About = () => {
   return (
@@ -13,7 +16,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <h3>Who I am and where I'm from...</h3>
               <div className="overlay">
@@ -47,7 +50,11 @@ const About = () => {
                 </h5>
               </div>
             </article>
-          </div>
+          </div> */}
+
+          <CARD1 />
+          <CARD2 />
+          <CARD3 />
         </div>
       </div>
     </section>
