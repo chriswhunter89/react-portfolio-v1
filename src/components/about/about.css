@@ -72,10 +72,16 @@ about__card:hover {
 }
 
 .card {
-  background: transparent;
-  border: 1px solid blue;
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
   padding: 1.2rem;
   display: inline-block;
+}
+
+.card:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .expand {
@@ -98,6 +104,10 @@ about__card:hover {
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 2.5rem;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
   }
 
   .about__content p {

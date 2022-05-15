@@ -15,12 +15,12 @@ const CARD1 = () => {
         }}
       >
         <motion.h2 layout="position">
-          My Background... <br />
+          My Background...&nbsp;&nbsp;&nbsp;&nbsp; <br />
         </motion.h2>
         {isOpen && (
           <motion.div
             className="expand"
-            transition={{ layout: { duration: 1, type: "spring" } }}
+            transition={{ layout: { duration: 0.5, type: "spring" } }}
             layout
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -31,7 +31,7 @@ const CARD1 = () => {
               now and absolutely love living here. After 8 years of working as a
               mechanical engineer, I decided to leave the industry so that I can
               pursue my passion in tech. I'm thankful for my time as an engineer
-              where I learnt and developed many of my skills which are also
+              where I learnt and developed many of my skills, which are also
               directly transferrable into programming.
             </p>
           </motion.div>

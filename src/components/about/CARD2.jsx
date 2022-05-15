@@ -18,7 +18,7 @@ const CARD2 = () => {
         {isOpen && (
           <motion.div
             className="expand"
-            transition={{ layout: { duration: 1, type: "spring" } }}
+            transition={{ layout: { duration: 0.5, type: "spring" } }}
             layout
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -30,8 +30,8 @@ const CARD2 = () => {
               Since I was young I've always been interested in building things,
               taking things apart and putting them back together. I still have
               this curiostiy when programming.
-              <br />I enjoy sports and have played ruby and gaelic football most
-              of my life and am always up for trying new activities!
+              <br />I enjoy sports and have played rugby and gaelic football
+              most of my life and am always up for trying new activities!
             </p>
           </motion.div>
         )}
