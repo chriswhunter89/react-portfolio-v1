@@ -18,14 +18,19 @@ const CARD3 = () => {
         {isOpen && (
           <motion.div
             className="expand"
-            transition={{ layout: { duration: 1, type: "spring" } }}
+            transition={{ layout: { duration: 0.5, type: "spring" } }}
             layout
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
             <p>
-              Chris im form ireland mobed t london 4 years ago. After 98 years
-              working ads a dskhdfbfe fh h f fh f h vjkhbfuf fhfb frhf rfr
+              I am currently continuing to imporove my programming skills
+              through building my own personal projects and attending online
+              courses. I would love to work for a company where I can both
+              progress as a developer and contribute to achieving new goals and
+              milestones with my team. Whilst I am no stranger to working alone,
+              I value working collaboratively with a team of likeminded
+              individuals and supporting eachother.
             </p>
           </motion.div>
         )}
