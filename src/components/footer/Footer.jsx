@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
@@ -33,6 +34,17 @@ const Footer = () => {
         <a href="https://github.com/chriswhunter89">
           <BsGithub />
         </a>
+      </div>
+      <div className="inspiration">
+        <h5>
+          This portfolio was inspired by{" "}
+          <a
+            href="https://www.youtube.com/channel/UCL8l_VxCAN0jOpaLaRAm8sQ"
+            target="_blank"
+          >
+            EGATOR Tutorials.
+          </a>
+        </h5>
       </div>
     </footer>
   );

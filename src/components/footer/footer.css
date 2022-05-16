@@ -40,6 +40,13 @@ footer a {
   border-color: var(--color-bg);
 }
 
+.inspiration h5 {
+  text-decoration: none;
+  color: black;
+  text-align: end;
+  font-size: 0.9rem;
+}
+
 /* ========= MEDIA QUERIES (SMALL DEVICES) ========= */
 @media screen and (max-width: 600px) {
   .permalinks {

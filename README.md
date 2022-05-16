@@ -1,3 +1,13 @@
+# Welcome to my first version of my react portfolio
+
+This project took inspiration from [EGATOR Tutorials](https://www.youtube.com/channel/UCL8l_VxCAN0jOpaLaRAm8sQ).
+
+The tutorial provided me with a basic layout which I build and then modified to suit my own layout.about\_\_card
+
+Expandable cards created using[Framer Motion](https://www.framer.com/developers/), an animation library for react.
+
+This app was built and deployed via [Heroku](https://www.heroku.com)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
