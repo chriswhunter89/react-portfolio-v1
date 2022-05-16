@@ -15,7 +15,8 @@ const CARD1 = () => {
         }}
       >
         <motion.h2 layout="position">
-          My Background...&nbsp;&nbsp;&nbsp;&nbsp; <br />
+          My Background...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+          <br />
         </motion.h2>
         {isOpen && (
           <motion.div

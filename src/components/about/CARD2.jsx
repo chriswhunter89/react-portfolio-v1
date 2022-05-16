@@ -14,7 +14,9 @@ const CARD2 = () => {
           borderRadius: "1rem",
         }}
       >
-        <motion.h2 layout="position">Hobbies & Interests... </motion.h2>
+        <motion.h2 layout="position">
+          Hobbies & Interests...&nbsp;&nbsp;{" "}
+        </motion.h2>
         {isOpen && (
           <motion.div
             className="expand"

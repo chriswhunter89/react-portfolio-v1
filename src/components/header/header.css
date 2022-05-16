@@ -46,7 +46,6 @@ header {
   width: 100vw;
   width: 22rem;
   height: 25rem;
-  left: calc(50% - 11rem);
   padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -65,7 +64,6 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     height: 85vh;
-    padding-top: 2rem;
   }
 }
 
@@ -73,7 +71,6 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 110vh;
-    padding-top: 2rem;
   }
 
   .header__container {
