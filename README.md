@@ -2,11 +2,11 @@
 
 This project took inspiration from [EGATOR Tutorials](https://www.youtube.com/channel/UCL8l_VxCAN0jOpaLaRAm8sQ).
 
-The tutorial provided me with a basic layout which I build and then modified to suit my own layout.about\_\_card
+The tutorial provided me with a basic layout, which I built and then modified to suit my own layout.
 
-Expandable cards created using[Framer Motion](https://www.framer.com/developers/), an animation library for react.
+Expandable cards were created using [Framer Motion](https://www.framer.com/developers/), an animation library for react.
 
-This app was built and deployed via [Heroku](https://www.heroku.com)
+This app was built and deployed via [Heroku](https://www.heroku.com).
 
 # Getting Started with Create React App
 
