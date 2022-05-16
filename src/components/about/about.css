@@ -1,6 +1,6 @@
 .about__container {
   display: grid;
-  grid-template-columns: 30% 65%;
+  grid-template-columns: 25% 70%;
   gap: 8%;
 }
 
@@ -84,12 +84,16 @@ about__card:hover {
   cursor: default;
 }
 
+.card h2 {
+  font-size: 1.4rem;
+}
+
 .expand {
-  height: 20rem;
+  height: 27rem;
 }
 
 /* ========= MEDIA QUERIES (MEDIUM DEVICES) ========= */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
@@ -112,6 +116,10 @@ about__card:hover {
 
   .about__content p {
     margin: 1rem 0 1.5rem;
+  }
+
+  .expand {
+    height: auto;
   }
 }
 
